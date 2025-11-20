@@ -8,7 +8,7 @@ type CardProps = {
 export default function Card({ title, description }: CardProps) {
   return (
     <div className="flex bg-blue h-80 w-full px-5 py-14   gap-4 justify-center items-start rounded-2xl">
-      <div className="w-16 lg:w-20  h-8 flex justify-center items-center">
+      <div className=" flex justify-center items-center lg:basis-18 xl:basis-12">
         <Logo color="darkBlue" size={"small"} />
       </div>
       <div className="text">

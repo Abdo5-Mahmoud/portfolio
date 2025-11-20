@@ -11,7 +11,7 @@ export default function Logo({ color, size }: LogoProps) {
       <div
         className={clsx(
           " flex flex-wrap w-[70px] h-full justify-start items-start",
-          size == "small" ? "w-fit h-8" : "lg:w-24"
+          size == "small" ? "w-fit h-8" : "lg:w-8"
         )}
       >
         <span
