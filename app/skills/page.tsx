@@ -1,23 +1,22 @@
-import Card from "./Card";
-import Logo from "./logo";
+import Card from "@/app/ui/skills/Card";
 
 export default function Skills() {
   return (
-    <main className="bg-dark1 text-white font-sans lg:h-full  max-w-7xl mx-auto px-5">
+    <main className="bg-dark1 text-white font-sans lg:h-full  max-w-7xl mx-auto px-5 my-16">
       <div className="max-w-7xl mx-auto py-3 px-5">
         <header className="mb-6 relative headerClipPath headerClipPath">
           <div
-            className="bg-darkBlue rounded-extra  flex items-center justify-between rounded-2xl px-6 py-8
+            className="bg-darkBlue rounded-extra  flex items-center justify-between rounded-2xl px-6 
             "
           >
             <div className="py-6">
-              <h1 className="text-3xl lg:text-7xl  md:text-4xl font-extrabold text-skyBlue ">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-skyBlue ">
                 Key Skills
               </h1>
             </div>
           </div>
         </header>
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 justify-items-center ">
+        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6 justify-items-center ">
           <Card
             title="Responsive Design"
             description="Optimizing layout for multiple devices and screens."

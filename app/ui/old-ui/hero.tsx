@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "./logo";
+import Logo from "../logo";
 import img1 from "@/public/main-img1.png";
 import img2 from "@/public/main-img2.png";
 export default function Hero() {
@@ -8,14 +8,14 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto py-3 px-5">
         <header className="mb-6 relative  headerClipPath">
           <div
-            className="bg-darkBlue rounded-extra  flex items-center justify-between rounded-2xl px-6 py-8
+            className="bg-darkBlue rounded-extra  flex items-center justify-between rounded-2xl px-6 py-4 lg:py-7
             "
           >
             <div className="p-1.5">
               <h1 className="text-3xl lg:text-7xl  md:text-4xl font-extrabold text-skyBlue ">
                 Frontend Developer <br />
               </h1>
-              <h2 className="text-blue mb-4 font-extrabold hidden lg:block">
+              <h2 className="text-skyBlue mb-4 font-extrabold hidden lg:block">
                 Building Modern & Fast Web Experiences
               </h2>
               <p className="color-lightBlue hidden lg:block">

@@ -20,6 +20,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--dark1);
 }
@@ -32,9 +36,6 @@ body {
 
 .aboutText {
   clip-path: polygon(0 0, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-
-
-
   position: relative;
   overflow: hidden;
 
@@ -66,7 +67,7 @@ body {
 }
 
 .aboutImg {
-  clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 0% 100%, 0% 100%);
+  clip-path: polygon(0 0, 75% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 100%);
 }
 
 .skillImg {
@@ -82,5 +83,107 @@ body {
 
   to {
     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes slideGlow {
+  to {
+    transform: translateX(10%) scale(1.2);
+    box-shadow: 10px 0 20px var(--skyBlue);
+  }
+}
+
+@media (widht<1024px) {
+  .logo-hover-animation {
+    animation: 1s slideGlow alternate;
+  }
+}
+
+
+
+
+/* #contact {
+  background-image: url('../../public/contact-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* Animated background pan (subtle) */
+@keyframes bg-pan {
+  0% {
+    background-position: center 40%;
+  }
+
+  50% {
+    background-position: center 60%;
+  }
+
+  100% {
+    background-position: center 40%;
+  }
+}
+
+.animate-bg-pan {
+  animation: bg-pan 18s linear infinite;
+}
+
+/* Floating shapes animation */
+@keyframes float-slow {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.85;
+  }
+
+  50% {
+    transform: translateY(-12px) translateX(4px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.85;
+  }
+}
+
+@keyframes float-slower {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: translateY(-18px) translateX(12px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-slower {
+  animation: float-slower 10s ease-in-out infinite;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+  .animate-bg-pan,
+  .animate-float-slow,
+  .animate-float-slower {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Make sure overlay text is readable on small screens */
+@media (max-width: 640px) {
+  .animate-bg-pan {
+    background-position: center 50%;
   }
 }
