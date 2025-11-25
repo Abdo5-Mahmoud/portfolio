@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/app/ui/old-ui
+/old_ui
 /.pnp
 .pnp.*
 .yarn/*
