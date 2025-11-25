@@ -36,7 +36,7 @@ export default function SidebarNavbar() {
     <>
       {/* Desktop sidebar (visible lg+) */}
       <div className="hidden  lg:flex flex-col fixed left-0 top-0 h-full w-56 bg-[#071026] text-white p-6 z-40">
-        <div className="flex items-center gap-3 mb-8">
+        <div className="flex items-center justify-center gap-3 mb-8">
           <Logo color="darkBlue" />
         </div>
 

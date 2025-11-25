@@ -2,6 +2,7 @@ import Image from "next/image";
 import Logo from "@/app/ui/logo";
 import img1 from "@/public/main-img1.png";
 import img2 from "@/public/main-img2.png";
+import Link from "next/link";
 export default function page() {
   return (
     <div className=" text-lightBlue font-sans lg:min-h-full">
@@ -77,7 +78,9 @@ export default function page() {
                 A disk with a laptop and some books on the desk.
               </p>
             </div>
-
+            <div className=" bg-darkBlue rounded-xl text-center w-fit px-4 py-2 mx-auto hover:bg-blue   ">
+              <Link href={"/contact"}>Hire Me</Link>
+            </div>
             <div className="bg-[rgba(255,255,255,0.03)] rounded-xl p-4">
               <div className="text-lightBlue text-sm">Presented by</div>
               <div className="mt-2 font-semibold text-lightBlue">
