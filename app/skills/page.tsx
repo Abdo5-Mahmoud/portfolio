@@ -2,7 +2,7 @@ import Card from "@/app/ui/skills/Card";
 
 export default function Skills() {
   return (
-    <main className="bg-dark1 text-white font-sans lg:h-full  max-w-7xl mx-auto px-5 my-16">
+    <main className=" text-white font-sans lg:h-full  max-w-7xl mx-auto px-5 my-16">
       <div className="max-w-7xl mx-auto py-3 px-5">
         <header className="mb-6 relative headerClipPath headerClipPath">
           <div

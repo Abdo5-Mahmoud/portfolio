@@ -1,8 +1,7 @@
+import iphoneEcho1 from "@/public/Projects_ScreenShot/iphone-echo1.jpg";
+import rRes from "@/public/Projects_ScreenShot/r-resturant1.jpg";
+import worldWise from "@/public/Projects_ScreenShot/WorldWise1.jpg";
 import Image from "next/image";
-import iphoneEcho1 from "@/public/Projects-ScreenShot/iphone-echo1.jpg";
-import worldWise from "@/public/Projects-ScreenShot/WorldWise1.jpg";
-import rRes from "@/public/Projects-ScreenShot/r-resturant1.jpg";
-import Link from "next/link";
 export default function page() {
   return (
     <section id="projects" className="max-w-6xl mx-auto px-5 py-16">

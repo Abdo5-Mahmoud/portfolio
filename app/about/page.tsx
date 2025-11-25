@@ -1,6 +1,6 @@
 import Image from "next/image";
-import aboutImg from "@/public/about-img.png";
-import TextType from "@/app/ui/animation/texttype";
+import aboutImg from "@/public/about_img.png";
+import TextType from "@/app/ui/animation/TextType/texttype";
 
 export default function About() {
   return (
@@ -15,8 +15,8 @@ export default function About() {
         About me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center">
-          <p className="text-lightBlue leading-relaxed text-lg md:text-xl mb-4">
+        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center ">
+          <div className=" min-h-50 text-lightBlue leading-relaxed text-lg md:text-xl mb-4">
             <TextType
               text={[
                 " I'm a frontend developer focused on building clean, modern, and high-performance interfaces",
@@ -28,14 +28,14 @@ export default function About() {
               showCursor={true}
               cursorCharacter="|"
             />
-          </p>
-          <p className="text-lightBlue leading-relaxed text-lg md:text-xl">
+          </div>
+          <div className="text-lightBlue leading-relaxed text-lg md:text-xl">
             My goal is to deliver fast, user-friendly designs that help
             businesses grow and stand out.
-          </p>
+          </div>
         </div>
         <div className="flex justify-center">
-          <div className="h-full rounded-4xl overflow-hidden bg-blue p-2">
+          <div className="h-full rounded-4xl overflow-hidden bg-skyBlue/30 p-2">
             <Image
               src={aboutImg}
               alt="Photo of a developer working on a laptop"

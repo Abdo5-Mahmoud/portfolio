@@ -271,6 +271,9 @@ export default function Contact() {
                 </p>
                 <p className="text-gray-300 text-sm mt-1">Giza, Egypt</p>
 
+                <p className="text-gray-300 text-sm mt-1.5">
+                  Number: <span className="text-lightBlue ">01070810979</span>
+                </p>
                 <div className="mt-6 space-y-3">
                   <Link
                     href="https://github.com/Abdo5-Mahmoud"

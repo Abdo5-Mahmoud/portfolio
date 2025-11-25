@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Footer from "./ui/footer";
 import SideNave from "./ui/sideNav";
 import Link from "next/link";
+import LightRays from "@/app/ui/animation/bg/lightrays";
 
 export const metadata: Metadata = {
   title: "Abdo Fawzy - Frontend Developer",
@@ -30,6 +31,9 @@ export default function RootLayout({
             <SideNave />
           </aside>
           <main className="flex flex-1 flex-col justify-between">
+            <div className="absolute w-full h-full -z-1 top-0 left-0">
+              <LightRays raysOrigin="right" />
+            </div>
             <div className="flex-1  md:px-12 px-5 py-8 ">{children}</div>
             <Footer />
           </main>
