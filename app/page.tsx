@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Logo from "@/app/ui/logo";
-import img1 from "@/public/Images/main-img1.png";
-import img2 from "@/public/Images/main-img2.png";
 import Link from "next/link";
 export default function page() {
   return (
@@ -51,7 +49,7 @@ export default function page() {
               "
               >
                 <Image
-                  src={img1}
+                  src={"/Images/main-img1.png"}
                   alt=" Screen showing code editor on desktop monitor"
                   className=" w-full md:h-80 object-cover block  rounded-lg 
                   "
@@ -68,7 +66,7 @@ export default function page() {
           <div className="flex flex-col gap-6 justify-between h-full">
             <div className="bg-card rounded-xl overflow-hidden border border-[rgba(255,255,255,0.03)]">
               <Image
-                src={img2}
+                src={"/Images/main-img2.png"}
                 alt="A desk with a laptop and books"
                 className="w-full h-40 sm:h-48 md:h-56 object-cover"
                 aria-description="a disk with a labtop on it with some books"

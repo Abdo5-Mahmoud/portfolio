@@ -1,6 +1,3 @@
-import iphoneEcho1 from "@/public/Images/iphoneEcho1.jpg";
-import rRes from "@/public/Images/rResturant1.jpg";
-import worldWise from "@/public/Images/WorldWise1.jpg";
 import Image from "next/image";
 export default function page() {
   return (
@@ -18,7 +15,7 @@ export default function page() {
           "
         >
           <Image
-            src={iphoneEcho1}
+            src={"/Images/iphoneEcho1.jpg"}
             alt="iPhone Echo screenshot"
             className="rounded-lg h-40 w-full object-cover"
           />
@@ -57,7 +54,7 @@ export default function page() {
           "
         >
           <Image
-            src={worldWise}
+            src={"/Images/WorldWise1.jpg"}
             alt="World Wise screenshot"
             className="rounded-lg h-40 w-full object-cover"
           />
@@ -95,7 +92,7 @@ export default function page() {
  "
         >
           <Image
-            src={rRes}
+            src={"/Images/rResturant1.jpg"}
             alt="R-Resturant screenshot"
             className="rounded-lg h-40 w-full object-cover"
           />

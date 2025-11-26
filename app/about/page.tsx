@@ -1,6 +1,5 @@
-import Image from "next/image";
-import aboutImg from "@/public/Images/aboutImg.png";
 import TextType from "@/app/ui/animation/TextType/texttype";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -14,9 +13,9 @@ export default function About() {
       >
         About me
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center h-full">
-          <div className="  text-lightBlue leading-relaxed text-lg md:text-xl mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-[90%] md:w-full md:h-[60vh]">
+        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center h-full min-h-120">
+          <div className="  text-lightBlue leading-relaxed text-lg md:text-xl mb-4 mx-auto">
             <TextType
               text={[
                 " I'm a frontend developer focused on building clean, modern, and high-performance interfaces.",
@@ -36,7 +35,7 @@ export default function About() {
         <div className="flex justify-center">
           <div className="h-full rounded-4xl overflow-hidden bg-skyBlue/30 p-2">
             <Image
-              src={aboutImg}
+              src={"/Images/aboutImg.png"}
               alt="Photo of a developer working on a laptop"
               width={800}
               height={1000}

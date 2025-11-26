@@ -1,5 +1,4 @@
 import Image from "next/image";
-import TechImage from "@/public/Images/Techimg.png";
 export default function TechnicalS() {
   return (
     <section className="flex flex-col md:flex-row gap-8 my-16  justify-center max-w-7xl mx-auto  ">
@@ -21,7 +20,7 @@ export default function TechnicalS() {
       </div>
       <div className="img bg-skyBlue p-2 rounded-2xl basis-1/2 ">
         <Image
-          src={TechImage}
+          src={"/Images/Techimg.png"}
           alt="this image for the about section"
           className=" object-cover rounded-4xl skillImg "
           objectFit="cover"
