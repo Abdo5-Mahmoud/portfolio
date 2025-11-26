@@ -71,7 +71,7 @@ export default function page() {
               <Image
                 width={100}
                 height={100}
-                src={"/Images/main-img2.png"}
+                src={"/Images/main-img2.jpg"}
                 alt="A desk with a laptop and books"
                 className="w-full h-40 sm:h-48 md:h-56 object-cover"
                 aria-description="a disk with a labtop on it with some books"
