@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Logo from "@/app/ui/logo";
+import Image from "next/image";
 import Link from "next/link";
 export default function page() {
   return (
@@ -49,12 +49,15 @@ export default function page() {
               "
               >
                 <Image
+                  width={100}
+                  height={100}
                   src={"/Images/main-img1.png"}
                   alt=" Screen showing code editor on desktop monitor"
                   className=" w-full md:h-80 object-cover block  rounded-lg 
                   "
                   aria-describedby="hero-image-desc"
                   objectFit="cover"
+                  unoptimized
                 />
                 <p id="hero-image-desc" className="sr-only">
                   This image contains a screen with some code in it.
@@ -66,11 +69,14 @@ export default function page() {
           <div className="flex flex-col gap-6 justify-between h-full">
             <div className="bg-card rounded-xl overflow-hidden border border-[rgba(255,255,255,0.03)]">
               <Image
+                width={100}
+                height={100}
                 src={"/Images/main-img2.png"}
                 alt="A desk with a laptop and books"
                 className="w-full h-40 sm:h-48 md:h-56 object-cover"
                 aria-description="a disk with a labtop on it with some books"
                 objectFit="cover"
+                unoptimized
               />
               <p id="desk-image-desc" className="sr-only">
                 A disk with a laptop and some books on the desk.

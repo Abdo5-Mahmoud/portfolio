@@ -41,6 +41,7 @@ export default function About() {
               height={1000}
               className="w-full h-auto object-cover rounded-3xl aboutImg block"
               objectFit="cover"
+              unoptimized
             />
           </div>
         </div>

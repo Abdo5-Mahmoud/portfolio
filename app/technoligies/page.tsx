@@ -20,10 +20,13 @@ export default function TechnicalS() {
       </div>
       <div className="img bg-skyBlue p-2 rounded-2xl basis-1/2 ">
         <Image
+          width={100}
+          height={100}
           src={"/Images/Techimg.png"}
           alt="this image for the about section"
-          className=" object-cover rounded-4xl skillImg "
+          className=" rounded-4xl skillImg w-full h-full"
           objectFit="cover"
+          unoptimized
         />
       </div>
     </section>

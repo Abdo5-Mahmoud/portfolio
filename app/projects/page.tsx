@@ -15,9 +15,12 @@ export default function page() {
           "
         >
           <Image
+            width={100}
+            height={100}
             src={"/Images/iphoneEcho1.jpg"}
             alt="iPhone Echo screenshot"
             className="rounded-lg h-40 w-full object-cover"
+            unoptimized
           />
           <h3 className="text-xl font-semibold mt-4 text-blue-300">
             iPhone Echo
@@ -54,9 +57,12 @@ export default function page() {
           "
         >
           <Image
+            width={100}
+            height={100}
             src={"/Images/WorldWise1.jpg"}
             alt="World Wise screenshot"
             className="rounded-lg h-40 w-full object-cover"
+            unoptimized
           />
           <h3 className="text-xl font-semibold mt-4 text-blue-300">
             World Wise
@@ -92,6 +98,9 @@ export default function page() {
  "
         >
           <Image
+            width={100}
+            height={100}
+            unoptimized
             src={"/Images/rResturant1.jpg"}
             alt="R-Resturant screenshot"
             className="rounded-lg h-40 w-full object-cover"
