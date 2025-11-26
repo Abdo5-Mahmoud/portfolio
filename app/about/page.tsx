@@ -37,10 +37,10 @@ export default function About() {
             <Image
               src={"/Images/aboutImg.png"}
               alt="Photo of a developer working on a laptop"
-              width={350}
+              width={340}
               height={100}
               className="h-full object-cover rounded-3xl aboutImg block"
-              // objectFit="fit"
+              objectFit="cover"
               unoptimized
             />
           </div>
