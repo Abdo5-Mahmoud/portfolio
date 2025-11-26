@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aboutImg from "@/public/about_img.png";
+import aboutImg from "@/public/Images/aboutImg.png";
 import TextType from "@/app/ui/animation/TextType/texttype";
 
 export default function About() {
@@ -15,13 +15,12 @@ export default function About() {
         About me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center ">
-          <div className=" min-h-50 text-lightBlue leading-relaxed text-lg md:text-xl mb-4">
+        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center h-full">
+          <div className="  text-lightBlue leading-relaxed text-lg md:text-xl mb-4">
             <TextType
               text={[
-                " I'm a frontend developer focused on building clean, modern, and high-performance interfaces",
-                ". I care about simplicity, clarity, and creating smooth UI experiences using React, Next.js, and Tailwind.",
-                "Happy coding!",
+                " I'm a frontend developer focused on building clean, modern, and high-performance interfaces.",
+                "I care about simplicity, clarity, and creating smooth UI experiences using React, Next.js, and Tailwind.",
               ]}
               typingSpeed={75}
               pauseDuration={1500}

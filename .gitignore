@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /old_ui
+/Projects_ScreenShot
 /.pnp
 .pnp.*
 .yarn/*

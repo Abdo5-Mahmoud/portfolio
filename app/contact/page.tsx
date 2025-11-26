@@ -1,7 +1,3 @@
-import Image from "next/image";
-import contactImg from "@/public/contact-img.png";
-import Logo from "@/app/ui/logo";
-import Row from "@/app/ui/contact/row";
 import Link from "next/link";
 // export default function Contact() {
 //   return (

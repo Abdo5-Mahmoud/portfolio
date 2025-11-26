@@ -1,6 +1,6 @@
-import iphoneEcho1 from "@/public/Projects_ScreenShot/iphone-echo1.jpg";
-import rRes from "@/public/Projects_ScreenShot/r-resturant1.jpg";
-import worldWise from "@/public/Projects_ScreenShot/WorldWise1.jpg";
+import iphoneEcho1 from "@/public/Images/iphoneEcho1.jpg";
+import rRes from "@/public/Images/rResturant1.jpg";
+import worldWise from "@/public/Images/WorldWise1.jpg";
 import Image from "next/image";
 export default function page() {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "@/app/ui/logo";
-import img1 from "@/public/main-img1.png";
-import img2 from "@/public/main-img2.png";
+import img1 from "@/public/Images/main-img1.png";
+import img2 from "@/public/Images/main-img2.png";
 import Link from "next/link";
 export default function page() {
   return (
