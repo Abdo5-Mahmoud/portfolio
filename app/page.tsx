@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className=" text-lightBlue font-sans lg:min-h-full">
-      <div className="max-w-7xl mx-auto py-6 px-5">
+      <div className="max-w-7xl mx-auto pt-6 px-5">
         <header className="mb-6 relative headerClipPath">
           <div
             className="bg-darkBlue flex items-center justify-between rounded-2xl px-6 py-4 lg:py-7
@@ -97,8 +97,12 @@ export default function page() {
           </div>
         </section>
       </div>
+    </div>
+  );
+}
 
-      {/*
+{
+  /*
       // May add it in the future
       <div className="relative w-64 h-40 group perspective-[1000px]">
         <div className="relative w-full h-full transition-transform duration-700 transform-3d group-hover:transform-[rotateY(180deg)]">
@@ -117,9 +121,7 @@ export default function page() {
           </div>
         </div>
       </div>
-       */}
-    </div>
-  );
+       */
 }
 /* 
 

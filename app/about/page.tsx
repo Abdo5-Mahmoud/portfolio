@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       tabIndex={-1}
-      className="overflow-x-hidden max-w-7xl mx-auto gap-8 mt-16 px-5 "
+      className="overflow-x-hidden max-w-7xl mx-auto gap-8  px-5 "
     >
       <h2
         id="about-title"
@@ -14,7 +14,7 @@ export default function About() {
         About me
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center w-[90%] md:w-full md:h-[60vh]">
-        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center h-full min-h-120">
+        <div className=" text-lightBlue px-6 md:px-16 py-6 rounded-lg aboutText  flex flex-col justify-center h-full">
           <div className="  text-lightBlue leading-relaxed text-lg md:text-xl mb-4 mx-auto">
             <TextType
               text={[
@@ -32,15 +32,15 @@ export default function About() {
             businesses grow and stand out.
           </div>
         </div>
-        <div className="flex justify-center">
-          <div className="h-full rounded-4xl overflow-hidden bg-skyBlue/30 p-2">
+        <div className="h-full w-full flex justify-center">
+          <div className=" rounded-4xl overflow-hidden bg-skyBlue/30 p-2">
             <Image
               src={"/Images/aboutImg.png"}
               alt="Photo of a developer working on a laptop"
-              width={800}
-              height={1000}
-              className="w-full h-auto object-cover rounded-3xl aboutImg block"
-              objectFit="cover"
+              width={350}
+              height={100}
+              className="h-full object-cover rounded-3xl aboutImg block"
+              // objectFit="fit"
               unoptimized
             />
           </div>

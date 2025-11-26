@@ -18,13 +18,13 @@ export default function TechnicalS() {
           <li>Git & GitHub</li>
         </ul>
       </div>
-      <div className="img bg-skyBlue p-2 rounded-2xl basis-1/2 ">
+      <div className="img bg-skyBlue p-2 rounded-2xl ">
         <Image
-          width={100}
+          width={350}
           height={100}
           src={"/Images/Techimg.png"}
           alt="this image for the about section"
-          className=" rounded-4xl skillImg w-full h-full"
+          className=" rounded-4xl skillImg  h-full"
           objectFit="cover"
           unoptimized
         />

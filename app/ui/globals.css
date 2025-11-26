@@ -62,7 +62,13 @@ body {
     background-color: var(--dark2);
     z-index: -1;
     border-radius: 1rem;
+  }
 
+  @media (width<768px) {
+    &::after {
+      height: 50%;
+      width: 200%;
+    }
   }
 }
 

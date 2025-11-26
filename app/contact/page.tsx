@@ -211,7 +211,7 @@ import Link from "next/link";
 // }
 export default function Contact() {
   return (
-    <section id="contact" className="relative overflow-hidden h-full">
+    <section id="contact" className="relative overflow-hidden h-full my-4">
       {/* Animated tech background */}
       <div
         className="absolute inset-0 bg-cover bg-center animate-bg-pan"

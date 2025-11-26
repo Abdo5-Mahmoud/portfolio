@@ -3,7 +3,7 @@ import Link from "next/link";
 // src/components/Footer.jsx
 export default function Footer() {
   return (
-    <footer className="bg-[#05101a] border-t border-gray-900 mt-12">
+    <footer className="bg-[#05101a] border-t border-gray-900 ">
       <div className="max-w-6xl mx-auto px-5 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-lightBlue">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-blue-600 rounded-md" />

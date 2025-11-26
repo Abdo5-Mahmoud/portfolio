@@ -26,15 +26,15 @@ export default function RootLayout({
         >
           Skip to content
         </Link>
-        <div className="min-h-screen flex flex-col lg:flex-row ">
+        <div className="h-screen flex flex-col lg:flex-row ">
           <aside className=" lg:block lg:w-56 lg:shrink-0">
             <SideNave />
           </aside>
-          <main className="flex flex-1 flex-col justify-between">
+          <main className="flex flex-1 flex-col justify-between max-h-full">
             <div className="absolute w-full h-full -z-1 top-0 left-0">
               <LightRays raysOrigin="right" />
             </div>
-            <div className="flex-1  md:px-12 px-5 py-8 ">{children}</div>
+            <div className="flex-1  md:px-12 px-5 ">{children}</div>
             <Footer />
           </main>
         </div>
