@@ -108,31 +108,6 @@ body {
 
 
 
-/* #contact {
-  background-image: url('../../public/contact-img.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-/* Animated background pan (subtle) */
-@keyframes bg-pan {
-  0% {
-    background-position: center 40%;
-  }
-
-  50% {
-    background-position: center 60%;
-  }
-
-  100% {
-    background-position: center 40%;
-  }
-}
-
-.animate-bg-pan {
-  animation: bg-pan 18s linear infinite;
-}
-
 /* Floating shapes animation */
 @keyframes float-slow {
   0% {
@@ -184,12 +159,5 @@ body {
   .animate-float-slower {
     animation: none !important;
     transition: none !important;
-  }
-}
-
-/* Make sure overlay text is readable on small screens */
-@media (max-width: 640px) {
-  .animate-bg-pan {
-    background-position: center 50%;
   }
 }

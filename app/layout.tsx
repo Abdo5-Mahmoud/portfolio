@@ -32,7 +32,7 @@ export default function RootLayout({
           </aside>
           <main className="flex flex-1 flex-col justify-between max-h-full">
             <div className="absolute w-full h-full -z-1 top-0 left-0">
-              <LightRays raysOrigin="right" />
+              <LightRays raysOrigin="top-right" />
             </div>
             <div className="flex-1  md:px-12 px-5 ">{children}</div>
             <Footer />

@@ -1,0 +1,2 @@
+Note 1:
+انقل الصور جوا ال app بحيث اعرف import واستخدم صلاحيات ال Image في ال resize and all that
